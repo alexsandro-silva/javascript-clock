@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/alarm-clock" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <script src="./js/index.js" defer></script>
+    <title>Javascript Clock</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Javascript Clock</h1>
+        <div class="display">
+            <h2 id="timeFormatLabel" style="display: none;">AM</h2>
+            <div class="digits" id="hour">00</div>
+            <div class="separator">:</div>
+            <div class="digits" id="minutes">00</div>
+            <div class="separator">:</div>
+            <div class="digits" id="seconds">00</div>    
+        </div>
+        <h2 id="fullDate"></h2>
+        <button id="timeFormat">Formato AM/PM</button>
+    </div>
+</body>
+</html>
